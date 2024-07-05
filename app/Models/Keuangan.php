@@ -26,7 +26,7 @@ class Keuangan extends Model
 
     public function getPlainDeskripsiAttribute()
     {
-        return strip_tags($this->attributes['deskripsi']);
+        return strip_tags($this->attributes['deksripsi']);
     }
 
     public function getKategoriNamaAttribute()
